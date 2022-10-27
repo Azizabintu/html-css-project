@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+       <title>FORMS</title>
+    </head>
+    <body>
+        <!-- 1-turdagi forma -->
+        <h3> 1-turdagi forma</h3>
+        <form action="/server.php" method="get">
+            <label for="username">Username</label> 
+            <input type="text" name="user" id="username"> <br><br>
+            <label for="parol">Password</label> 
+            <input type="password" name="user_parol" id="parol"> <br><br>
+            <button type="submit">Login </button>
+        </form>
+    </body>
+    <!--Inpuy turlari -->
+    <h3>Input turlari</h3>
+    <form action="server.php">
+        <label for="addres">Emailingiz</label>
+        <input type="email" name=user_e id="addres"> <br><br>
+        <label for="sana">Tug'ilgan sana</label>
+        <input type="date" name=birth_d id="sana"> <br><br>
+        <label for="student">Talaba</label>
+        <input type="checkbox" name=talabami id="student" > <br><br>
+        <label for="erkak">Erkak</label>
+        <input type="radio" name=gender value="male" id="erkak"> 
+        <label for="ayol">Ayol</label>
+        <input type="radio" name=gender value="female" id="ayol"> <br><br>
+        <label for="pasport">Passport</label>
+        <input type="file" name=user_pas id="pasport"> <br><br>
+        
+       <!--select option textarea --> 
+       <h3>Selector va textarea</h3>
+       <label for="tajriba">Tajribangiz</label>
+        <select name="experience" id="tajriba">
+            <option value="0">Tajribam yoq</option>
+            <option value="1">1 yildan kam</option>
+            <option value="2">1 yildan kop</option>
+        </select><br><br>
+        <label for="tajriba">Siz haqingizda</label><br><br>
+        <textarea name="about" id="tajriba" cols="30" rows="10"></textarea>
+       <br>
+        <button type="submit">Register </button>
+    </form>
+</html>

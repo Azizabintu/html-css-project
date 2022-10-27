@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+       <title>Contact me</title>
+        <style>
+            .field{
+                margin-top: 5px;
+            }
+        </style>
+    </head>
+    </body>
+       <a href="resume.html">Resumega o'tish</a>
+       <h3>Men bilan bog'laning</h3>
+       <form action="contact.php" method="get">
+          <div class="field">
+            <label for="ism"> Ismingiz</label>
+            <input type="text" name="name" id="ism">
+          </div>
+          <div class="field">
+            <label for="fam"> Familiyangiz</label>
+            <input type="text" name="surname" id="fam">
+          </div>
+          <div class="field">
+            <label for="mail"> Emailingiz</label>
+            <input type="email" name="email" id="mail">
+          </div>
+          <div class="field">
+            <label for="haqida">O'zingiz haqingizda ma'lumot qoldiring</label><br>
+            <textarea name="about" id="haqida" cols="30" rows="10">
+            </textarea>
+          </div>
+          <button type="button">Jo'natish</button>
+       </form>
+       
+    </body>
+</html>
